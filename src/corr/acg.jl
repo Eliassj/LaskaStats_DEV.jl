@@ -1,5 +1,9 @@
 #=
+This code is based on the implementation from phylib. The link to the original implementation and copyright notice of which follows here:
+
 https://github.com/cortex-lab/phylib/blob/master/phylib/stats/ccg.py
+
+---
 
 Copyright (c) 2019, Cortex-lab All rights reserved.
 
@@ -22,7 +26,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 Calculate the autocorrelogram of `cluster` or `spikes`. Bin size and window size may be provided in the form of units from `Unitful.jl`.
 If a specific unit is not provided the bin-/windowsize is assumed to be in the same unit as the sample rate of the `cluster`/`spikes`.
 
-Code for the function inspired by https://github.com/cortex-lab/phylib.
+Code for the function based on https://github.com/cortex-lab/phylib.
 """
 function acg end
 
